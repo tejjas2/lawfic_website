@@ -11,14 +11,16 @@ const Navbar : React.FC = () => {
 
     return (
         <div className="navbar-container">
-            <Link to="/">
-            <img src={websiteLogo} alt="Logo" style={{ height: '115px', width: 'auto' }} />
-            </Link>
+  <div className="navbar-logo">
+    <Link to="/">
+      <img src={websiteLogo} alt="Logo" />
+    </Link>
+  </div>
             <div className="list-items">
                 <ul className="navbar-list-items">
                     <li><Link to="/People">PEOPLE</Link></li>
                     <li className="dropdown">
-                    <Link className="nav-link" to="/practices">PRACTICES</Link>
+                    <li>PRACTICES</li>
                     <ul className="dropdown-menu">
                         
                        
@@ -33,24 +35,18 @@ const Navbar : React.FC = () => {
                         <span className="nav-link">INSIGHTS</span>
                         <ul className="dropdown-menu">
                            
-                            <li><Link to="/bis">Articles</Link></li>
-                            <li><Link to="/banking-finance">Newsletters</Link></li>
+                            <li><Link to="/focus">In-Focus</Link></li>
+                            
                             
                         </ul>
                     </li>
-                    <li className="dropdown">
-                        <span className="nav-link">NEWSROOM</span>
-                        <ul className="dropdown-menu">
-                            <li><Link to="/arbitration">News & Briefings</Link></li>
-                            <li><Link to="/bis">Events</Link></li>
-                        </ul>
-                    </li>
+                   
                     <li>
                         <Link to="/#about-us">ABOUT US</Link>
                     
                      
                     </li>
-                    <li><Link to="/#">CAREERS</Link></li>
+                    
                     
                 </ul>
                 <SearchIcon style={{ color: 'darkblue', cursor: 'pointer' }} />

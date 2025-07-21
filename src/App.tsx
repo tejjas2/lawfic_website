@@ -15,6 +15,7 @@ import Cookie from './pages/Practices/cookie';
 import Regulatory from './pages/Practices/regulatory';
 import CookieBanner from './components/CookieBanner'; 
 import Contact from './pages/Practices/contact';
+import Focus from './pages/Practices/focus'
 
 
 
@@ -37,6 +38,7 @@ const App: React.FC = () => {
         <Route path="/cookies" element={<Cookie />} />
         <Route path="/regulatory-disclosures" element={<Regulatory />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/focus" element={<Focus/>}/>
         
         
       </Routes>
