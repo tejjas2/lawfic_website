@@ -1,7 +1,6 @@
 import React from "react";
-import websiteLogo from "../assets/image.png"
-import SearchIcon from '@mui/icons-material/Search';
-import LanguageIcon from '@mui/icons-material/Language';
+import websiteLogo from "../assets/imagen.png"
+
 import { Link } from 'react-router-dom';
 
 
@@ -49,14 +48,9 @@ const Navbar : React.FC = () => {
                     
                     
                 </ul>
-                <SearchIcon style={{ color: 'darkblue', cursor: 'pointer' }} />
+                
             </div>
-            <div className="vertical-line"> | </div>
-            <div className="navbar-right-language-toggles">
-            <LanguageIcon style={{ fontSize: 24, color: '#555', cursor: 'pointer' }} />
-            <span>ENGLISH</span>
-
-            </div>
+           
              
         </div>
 

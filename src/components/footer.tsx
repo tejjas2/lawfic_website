@@ -31,7 +31,9 @@ const Footer: React.FC = () => {
     target="_blank"
     rel="noopener noreferrer">Instagram</a>
           <a href="#">+91-8104457555</a>
+          <a href="https://wa.me/message/35WEMIK77H33N1 " target="_blank" rel="noopener noreferrer">WhatsApp</a>
         </div>
+        
 
         {/* Column 3: Company */}
         <div className="footer-column">
