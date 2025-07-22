@@ -32,12 +32,7 @@ const Navbar : React.FC = () => {
                 </li>
                     <li className="dropdown">
                         <span className="nav-link">INSIGHTS</span>
-                        <ul className="dropdown-menu">
-                           
-                           
-                            
-                            
-                        </ul>
+                        
                     </li>
                    
                     <li>
