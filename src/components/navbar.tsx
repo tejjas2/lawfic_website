@@ -34,7 +34,7 @@ const Navbar : React.FC = () => {
                         <span className="nav-link">INSIGHTS</span>
                         <ul className="dropdown-menu">
                            
-                            <li><Link to="/focus">In-Focus</Link></li>
+                           
                             
                             
                         </ul>
