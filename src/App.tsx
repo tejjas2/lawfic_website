@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import People from './pages/people';
-import Practices from './pages/arbitration';
+
 import Gst from './pages/Practices/gst';
 import Customs from './pages/Practices/customs';
 import Intellectual_property from './pages/Practices/intellectual_property';
@@ -27,7 +27,6 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/people" element={<People />} />
-        <Route path="/Practices" element={<Practices />} />
         <Route path="/Practices/gst" element={<Gst />} />
         <Route path="/Practices/customs" element={<Customs />} />
         <Route path="/Practices/intellectual_property" element={<Intellectual_property />} />
