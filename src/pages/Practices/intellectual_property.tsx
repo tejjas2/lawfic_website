@@ -16,7 +16,7 @@ const Gst: React.FC = () => (
     <div className='carousel'>
       <img src={gstImg} alt="Main Slide" style={imgStyle} />
       <div className="info-container">
-        <h1>Intelluctual Property</h1>
+        <h1>Intellectual Property</h1>
       </div>
     </div>
     <div className="gst-content">
