@@ -13,12 +13,12 @@ const People : React.FC = () => {
     <>
     <Navbar/>
      <div className="gst-content">
-        <h1 >
+        <h1 style={{ textDecoration: "underline", marginBottom: "15px",alignContent:"center" ,fontSize:"40px"}} >
           People
         </h1>
 
         <div className="regulatory">
-        <h1>1.GUPTESHWAR SHAH</h1>
+        <h1 >1.GUPTESHWAR SHAH</h1>
         <img src={img3} alt="Img1" style={{ width: '220px', height: 'auto' }} />
         
         <p><strong>Gupteshwar shah is the Founder and Managing Partner of Lawfic tax practice (LTP).</strong></p>
